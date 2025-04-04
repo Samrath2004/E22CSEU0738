@@ -1,0 +1,26 @@
+# Node modules (very large and should never be committed)
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific (optional but recommended)
+.vscode/
+.idea/
+
+# Optional: logs and cache
+logs
+*.log
+*.tmp
+.cache/
